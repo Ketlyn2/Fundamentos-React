@@ -1,0 +1,23 @@
+.card {
+    background-color: white; 
+    border-radius: 5px;
+    overflow: hidden;
+    border: 3px solid #F67280;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    margin: 0 0 10px 0;
+}
+
+.card .title {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 0;
+    background-color: #F67280
+}
+
+.card .content {
+    color: #30475E;
+    padding: 10px;
+    font-weight: 500;
+}
