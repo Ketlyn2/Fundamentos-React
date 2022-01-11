@@ -1,15 +1,14 @@
 .card {
-    background-color: white; 
     border-radius: 5px;
     overflow: hidden;
-    border: 3px solid #F67280;
-    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    border: 3px solid ;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.137);
     margin: 10px;
-
+    background-color: white;
     display: flex;
     flex-direction: column;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 400px;
+    max-width: 400px;
 }
 
 .card .title {
@@ -18,7 +17,7 @@
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     padding: 8px 0;
-    background-color: #F67280
+    
 }
 
 .card .content {
