@@ -4,7 +4,12 @@
     overflow: hidden;
     border: 3px solid #F67280;
     box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
-    margin: 0 0 10px 0;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 300px;
 }
 
 .card .title {
@@ -20,4 +25,5 @@
     color: #30475E;
     padding: 10px;
     font-weight: 500;
+    flex: 1;
 }
