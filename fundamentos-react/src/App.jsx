@@ -9,6 +9,7 @@ import Card from './components/layout/Card'
 import Family from './components/basics/Family'
 import FamilyMember from  './components/basics/FamilyMember'
 import ListStudents from './components/repetition/ListStudents'
+import TableProducts from './components/repetition/TableProducts'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ =>
@@ -17,6 +18,10 @@ export default _ =>
         {/* <Card title="Exemplo de Card"/> */}
 
         <div className="cards">
+            <Card title="#07 - Desafio Repetição" color="#7CD1B8">
+                <TableProducts></TableProducts>
+            </Card>
+
             <Card title="#06 - Repetição" color="#557C55">
                 <ListStudents></ListStudents>
             </Card>
