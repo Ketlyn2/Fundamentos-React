@@ -24,9 +24,8 @@ export default _ => {
             {/* <Card title="Exemplo de Card"/> */}
 
             <div className="cards">
-                <Card title="#09 - Renderização Condicional" color="#F7A440">
+                <Card title="#09 - Renderização Condicional com If Else" color="#F7A440">
                     <UserInfo user={{ name: 'Daniel'}}></UserInfo>
-                    <UserInfo user={{ email: 'Daniel@gmail.com'}}></UserInfo>
                 </Card>
 
                 <Card title="#08 - Renderização Condicional" color="#7B6079">
