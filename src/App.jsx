@@ -12,6 +12,8 @@ import ListStudents from './components/repetition/ListStudents'
 import TableProducts from './components/repetition/TableProducts'
 import EvenOrOdd from './components/conditional/EvenOrOdd'
 import UserInfo from './components/conditional/UserInfo'
+import DirectFather from './components/communication/DirectFather'
+import IndirectFather from './components/communication/IndirectFather'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ => {
@@ -24,6 +26,14 @@ export default _ => {
             {/* <Card title="Exemplo de Card"/> */}
 
             <div className="cards">
+                <Card title="#11 - Comunicação Indireta" color="#ffb2c1">
+                    <IndirectFather></IndirectFather>
+                </Card>
+
+                <Card title="#10 - Comunicação Direta" color="#e89a80">
+                    <DirectFather></DirectFather>
+                </Card>
+
                 <Card title="#09 - Renderização Condicional com If Else" color="#F7A440">
                     <UserInfo user={{ name: 'Daniel'}}></UserInfo>
                 </Card>
