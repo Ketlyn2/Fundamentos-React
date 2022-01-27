@@ -21,8 +21,8 @@ export default (props) => {
     return (
         <div>
             <div>
-                <span>{ name } </span>
-                <span><strong>{ age } </strong></span>
+                <span>{ name } tem </span>
+                <span><strong>{ age }, ele é meu </strong></span>
                 <span>{bool ? 'Pai' : 'Padrasto'}</span>
             </div>
             <IndirectSon whenClick={provideInfo}></IndirectSon>

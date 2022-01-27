@@ -1,0 +1,15 @@
+.container input {
+    border: 1px solid #6E8B3D;
+    border-radius: 3px;
+    padding: 5px;
+    width: 200px;
+    outline: none;
+}
+
+.container input:last-child {
+    margin: 5px 0 0 0;
+}
+
+.container p {
+    margin: 5px 0 0 0;
+}

@@ -14,6 +14,8 @@ import EvenOrOdd from './components/conditional/EvenOrOdd'
 import UserInfo from './components/conditional/UserInfo'
 import DirectFather from './components/communication/DirectFather'
 import IndirectFather from './components/communication/IndirectFather'
+import Input from './components/form/Input'
+import Counter from './components/counter/Counter'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default _ => {
@@ -26,6 +28,14 @@ export default _ => {
             {/* <Card title="Exemplo de Card"/> */}
 
             <div className="cards">
+                <Card title="#13 - Contador" color="#609ba8">
+                    <Counter numberInitial={10}></Counter>
+                </Card>
+
+                <Card title="#12 - Componente Controlado (Input)" color="#6E8B3D">
+                    <Input></Input>
+                </Card>
+
                 <Card title="#11 - Comunicação Indireta" color="#ffb2c1">
                     <IndirectFather></IndirectFather>
                 </Card>
